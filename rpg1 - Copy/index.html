@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./reset.css" />
+  </head>
+  <body>
+    <audio id="myAudio">
+      <source src="/sounds/dice.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio id="lorem">
+      <source src="/sounds/Lorem Ipsum.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="background1" id="background1">
+      <video autoplay muted loop id="myVideo">
+        <source src="/images/a_1.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div class="background2" id="background2">
+      <video autoplay muted loop id="myVideo">
+        <source src="/images/a_2.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div class="background3" id="background3">
+      <video autoplay muted loop id="myVideo">
+        <source src="/images/a_3.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div class="container">
+      <div class="texto0" id="texto0">
+        <h2>
+          INTRO<br /><br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
+          consequat tortor, nec porttitor quam. Aenean auctor nibh mauris, vitae
+          cursus magna mollis gravida. Mauris placerat maximus nunc, eu egestas
+          est semperS at. <br /><br />
+          pharetra magna placerat gravida placerat. Integer imperdiet
+          pellentesque tortor, in vulputate arcu congue a. Donec vitae purus
+          turpis. Nulla luctus, sem eu sodales tincidunt, ipsum nunc vulputate
+          dolor, vitae rutrum nibh nunc vel odio. <br /><br />
+          Sed sodales libero tellus, vestibulum ornare tortor bibendum vel. Nam
+          et mauris quis tellus sagittis tristique at eget nulla. Phasellus a
+          mollis tellus. Class aptent taciti sociosqu ad litora torquent per
+          conubia nostra, per inceptos himenaeos. Morbi eleifend volutpat ex, ut
+          ultrices nibh pulvinar vitae.
+        </h2>
+      </div>
+
+      <div class="texto1" id="texto1">
+        <h2>
+          Path 1<br /><br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
+          consequat tortor, nec porttitor quam. Aenean auctor nibh mauris, vitae
+          cursus magna mollis gravida. Mauris placerat maximus nunc, eu egestas
+          est semperS at. <br /><br />
+          pharetra magna placerat gravida placerat. Integer imperdiet
+          pellentesque tortor, in vulputate arcu congue a. Donec vitae purus
+          turpis. Nulla luctus, sem eu sodales tincidunt, ipsum nunc vulputate
+          dolor, vitae rutrum nibh nunc vel odio. <br /><br />
+          Sed sodales libero tellus, vestibulum ornare tortor bibendum vel. Nam
+          et mauris quis tellus sagittis tristique at eget nulla. Phasellus a
+          mollis tellus. Class aptent taciti sociosqu ad litora torquent per
+          conubia nostra, per inceptos himenaeos. Morbi eleifend volutpat ex, ut
+          ultrices nibh pulvinar vitae.
+        </h2>
+      </div>
+
+      <div class="texto2" id="texto2">
+        <h2>
+          Path 2<br /><br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
+          consequat tortor, nec porttitor quam. Aenean auctor nibh mauris, vitae
+          cursus magna mollis gravida. Mauris placerat maximus nunc, eu egestas
+          est semperS at. <br /><br />
+          pharetra magna placerat gravida placerat. Integer imperdiet
+          pellentesque tortor, in vulputate arcu congue a. Donec vitae purus
+          turpis. Nulla luctus, sem eu sodales tincidunt, ipsum nunc vulputate
+          dolor, vitae rutrum nibh nunc vel odio. <br /><br />
+          Sed sodales libero tellus, vestibulum ornare tortor bibendum vel. Nam
+          et mauris quis tellus sagittis tristique at eget nulla. Phasellus a
+          mollis tellus. Class aptent taciti sociosqu ad litora torquent per
+          conubia nostra, per inceptos himenaeos. Morbi eleifend volutpat ex, ut
+          ultrices nibh pulvinar vitae.
+        </h2>
+      </div>
+
+      <div class="texto3" id="texto3">
+        <h2>
+          Path 3<br /><br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a
+          consequat tortor, nec porttitor quam. Aenean auctor nibh mauris, vitae
+          cursus magna mollis gravida. Mauris placerat maximus nunc, eu egestas
+          est semperS at. <br /><br />
+          pharetra magna placerat gravida placerat. Integer imperdiet
+          pellentesque tortor, in vulputate arcu congue a. Donec vitae purus
+          turpis. Nulla luctus, sem eu sodales tincidunt, ipsum nunc vulputate
+          dolor, vitae rutrum nibh nunc vel odio. <br /><br />
+          Sed sodales libero tellus, vestibulum ornare tortor bibendum vel. Nam
+          et mauris quis tellus sagittis tristique at eget nulla. Phasellus a
+          mollis tellus. Class aptent taciti sociosqu ad litora torquent per
+          conubia nostra, per inceptos himenaeos. Morbi eleifend volutpat ex, ut
+          ultrices nibh pulvinar vitae.
+        </h2>
+      </div>
+
+      <div class="buttonsOn" onclick="audio.play();">
+        <button onclick="caminho1()" type="button" class="button1" id="button1">
+    Path 1</h2>
+        </button>
+
+        <button type="button" class="button2" id="button2">
+          <h2>Path 2</h2>
+        </button>
+        <button type="button" class="button3" id="button3">
+          <h2>Path 3</h2>
+        </button>
+
+      
+      </div>
+
+      <div class="buttonsOff">
+        <button type="button" class="button4" id="button4">
+            <h2>Path 4</h2>
+          </button>
+    
+          <button type="button" class="button5" id="button5">
+            <h2>Path 5
+          </button>
+    
+          <button type="button" class="button6" id="button6">
+            <h2>Path 6</h2>
+          </button>
+    
+          <button type="button" class="button7" id="button7">
+            <h2>Path 7</h2>
+          </button>
+    
+          <button type="button" class="button8" id="button8">
+            <h2>Path 8</h2>
+          </button>
+    
+          <button type="button" class="button9" id="button9">
+            <h2>Path 9</h2>
+          </button>
+    
+          <button type="button" class="button10" id="button10">
+            <h2>Path 10</h2>
+          </button>
+    
+          <button type="button" class="button11" id="button11">
+            <h2>Path 11</h2>
+          </button>
+    
+          <button type="button" class="button12" id="button12">
+            <h2>Path 12</h2>
+          </button>
+
+         
+      </div>
+
+      <div id="buttonsBack" class="buttonsBack">
+        <button onclick="back()"  type="button" class="back" id="back">
+            <h2>Back</h2>
+          </button>
+      
+      </div>
+      
+    </div>
+    <script src="playAudio.js"></script>
+    <script src="caminhos.js"></script>
+  </body>
+</html>

@@ -1,0 +1,430 @@
+body {
+    margin: 0;
+    background-color: rgb(18, 18, 18);
+    background-image: url(/images/background1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: rgb(0, 0, 0);
+  }
+
+
+
+
+  .background1{
+
+    background-image: url(/images/a_1.mp4);
+    display: none;
+
+    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+   
+  }
+
+  .background2{
+
+    background-image: url(/images/a_2.mp4);
+    display: none;
+
+    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+   
+  }
+
+  .background3{
+
+    background-image: url(/images/a_3.mp4);
+    display: none;
+
+    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+   
+  }
+
+.container{
+    margin: auto;
+    width: 60%;
+  
+  position: relative;
+  top:  45vh;
+  
+
+  
+
+   
+
+}
+
+.texto0{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(6, 6, 6, 0.218);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 200px;
+    overflow: auto;
+    font-size: 30px;
+}
+
+
+
+.texto1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(6, 6, 6, 0.218);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 200px;
+    overflow: auto;
+    font-size: 30px;
+    display: none;
+}
+
+.texto2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(6, 6, 6, 0.218);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 200px;
+    overflow: auto;
+    font-size: 30px;
+    display: none;
+}
+
+.texto3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(6, 6, 6, 0.218);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 200px;
+    overflow: auto;
+    font-size: 30px;
+    display: none;
+}
+
+
+
+  .buttonsOn{
+   
+ 
+   display: grid;
+
+  
+  }
+
+  .buttonsOff{
+   
+ 
+    display: grid;
+ 
+   
+   }
+
+   .buttonsBack{
+   
+ 
+    display: grid;
+ 
+   
+   }
+ 
+
+
+  .button1 {
+    color: rgb(255, 255, 255);
+    background-color: rgba(59, 59, 59, 0.254);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+  }
+
+  .button1:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(164, 14, 14, 0.416);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+  }
+
+  .button2 {
+    color: rgb(255, 255, 255);
+    background-color: rgba(59, 59, 59, 0.254);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+  }
+
+  .button2:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(164, 14, 14, 0.416);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+  }
+
+  .button3 {
+    color: rgb(255, 255, 255);
+    background-color: rgba(59, 59, 59, 0.254);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+  
+    
+  }
+
+  .button3:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(164, 14, 14, 0.416);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+  }
+
+  .button4 {
+    display: none;
+    color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(59, 59, 59, 0.254);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+    
+  }
+
+  .button4:hover {
+    color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(164, 14, 14, 0.416);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+  }
+
+  .button5 {
+    display: none;
+    color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(59, 59, 59, 0.254);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+    
+  }
+
+  .button5:hover {
+    color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(164, 14, 14, 0.416);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+  }
+
+
+  .button6 {
+    display: none;
+    color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(59, 59, 59, 0.254);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+    
+  }
+
+  .button6:hover {
+    color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(164, 14, 14, 0.416);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+  }
+
+  .button7 {
+    display: none;
+    color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(59, 59, 59, 0.254);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+    
+  }
+
+  .button7:hover {
+    color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(164, 14, 14, 0.416);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+  }
+
+  .button8 {
+    display: none;
+    color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(59, 59, 59, 0.254);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+    
+  }
+
+  .button8:hover {
+    color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(164, 14, 14, 0.416);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+  }
+
+  .button9 {
+    display: none;
+    color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(59, 59, 59, 0.254);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+    
+  }
+
+  .button9:hover {
+    color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(164, 14, 14, 0.416);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+  }
+
+  .button10 {
+    display: none;
+    color: rgba(255, 255, 255, 0.26);;
+    background-color: rgba(59, 59, 59, 0.254);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+    
+  }
+
+  .button10:hover {
+    color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(164, 14, 14, 0.416);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+  }
+
+  .button11 {
+    display: none;
+    color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(59, 59, 59, 0.254);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+    
+  }
+
+  .button11:hover {
+    color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(164, 14, 14, 0.416);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+  }
+
+  .button12 {
+    display: none;
+    color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(59, 59, 59, 0.254);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+    
+  }
+
+  .button12:hover {
+    color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(164, 14, 14, 0.416);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+  }
+
+  .back {
+    display: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(59, 59, 59, 0.254);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+    
+  }
+
+  .back:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(164, 14, 14, 0.416);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 50px;
+  }
